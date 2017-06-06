@@ -1,0 +1,8 @@
+@charset "utf-8";
+*{margin:0px;padding:0px;}
+body{background:#CCCCCC;}
+/* 水平居中父元素--定宽块状元素通过设置左右margin值为auto实现*/
+.w1000 {width: 80%;margin: 0 auto;background:#FFFFFF}
+a{text-decoration:none;color:#000000;font-size:18px;}
+ul{}
+li{list-style:none;text-align:center;}

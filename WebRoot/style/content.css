@@ -1,0 +1,47 @@
+main
+{
+	position:relative;min-height:700px; _height:700px;
+}
+.main-title{text-align:center;width:500px;margin:5px auto;padding-top:30px}
+.main-content
+{position:relative;left:20%;width:60%;text-indent:2em;  }
+.answer
+{
+	position:absolute;top:150px;left:82%;
+	width:80px;text-align:center;height:30px;line-height:30px;
+	border:1px solid #ccbdbd;background:#ccbdbd;
+	-moz-border-radius: 15px;      
+	-webkit-border-radius: 15px;   
+	border-radius: 15px;
+}
+#myFocus{position:absolute;top:20px;width:300px;height:269px;margin-left: 5%}
+
+.content-study
+{   
+	height:269px;width:45%;/*width:480px;*/
+	position:absolute;left:50%;top:60px;
+	overflow:hidden;
+	background-color:#f8f8f8;
+	-moz-border-radius: 15px;      
+	-webkit-border-radius: 15px;   
+	border-radius: 15px;	
+}
+.content-study p
+{
+	width:700px;height:50px;padding:0 0;
+	font-size:24px;
+	font-weight:bold;
+	text-indent:40px;
+	background-color:#33CCFF;color:#FFFFFF;
+	line-height:50px;
+}
+#study-area
+{height:219px;width:340px;padding:0 80px;line-height:45px;font-size:20px;overflow:hidden;}
+#study-area li{list-style:decimal;text-align:left;}
+#study-area ol li:hover a{color:#FF00FF;}
+#study-area ol li:hover {color:#FF00FF;}
+.time
+{
+	width:100%;overflow:hidden;height:300px;
+	position:absolute;top:390px;
+}

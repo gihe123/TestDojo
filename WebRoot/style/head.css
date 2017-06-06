@@ -1,0 +1,49 @@
+.head{height:180px;}
+.head-top{width: 100%;height: 40px;line-height: 40px; background:url(../images/top_bg.jpg);}
+.head-w1000 {width: 80%;margin: 0 auto;}
+.top-star{float:left;width:31px;height:30px;margin:5px 5px 5px 0;}
+.head-logo{height:78px;}
+.logo{height:78px;vertical-align:middle;}/*对图片设置上下居中CSS样式即可让在同排文字和图片垂直居中。*/
+.welcome{width:90%;height:78px;color:#66CCFF;font-size:30px;text-align:center;overflow: hidden;}
+
+.nav
+{
+	height:40px;background:#66CCFF;	
+	-moz-border-radius: 15px;      
+	-webkit-border-radius: 15px;   
+	border-radius: 15px;	
+}
+.nav a
+{
+	display:block;width:100%;height:100%;
+	-webkit-transition:background-color .4s linear;
+	-moz-transition:background-color .4s linear;
+	transition:background-color .4s linear;
+}
+.nav>li
+{
+	width:25%;height:40px;line-height:40px;
+	float:left;position:relative;
+	-moz-border-radius: 15px;      
+	-webkit-border-radius: 15px;   
+	border-radius: 15px;
+}
+.nav>li li{width:100px;background:#66CCFF;border:1px solid orange;}
+.nav-first-ul
+{
+	position:absolute;display:none;z-index:999;
+}
+.nav-second-ul
+{
+	position:absolute;left:100%;top:0;z-index:999;
+}
+.nav a:hover
+{	background-color:#3366FF;
+	color:#FFFFFF;
+	-moz-border-radius: 15px;      
+	-webkit-border-radius: 15px;   
+	border-radius: 15px;	
+}
+.nav>li:hover .nav-first-ul{display:block;}
+.nav>li:hover .nav-second-ul{display:none;}
+.nav-first-ul>li:hover .nav-second-ul{display:block;}
